@@ -21,7 +21,7 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: "3.9" # some pre-commit hooks require Python <3.10
-    - uses: pre-commit/action@v3.0.0
+    - uses: pre-commit/action@v3.0.1
       with:
         extra_args: --hook-stage manual --all-files
 
